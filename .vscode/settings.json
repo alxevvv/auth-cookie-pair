@@ -1,0 +1,41 @@
+{
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.bracketPairs": true,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#5592d5",
+    "activityBar.background": "#5592d5",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#f2ccde",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#5592d5",
+    "statusBar.background": "#f9e64f",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#dfc81c",
+    "statusBarItem.remoteBackground": "#f9e64f",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#3178c6",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#3178c699",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/.mypy_cache": true,
+    "**/.pdm-build": true,
+    "**/.ruff_cache": true,
+    "**/.tox": true,
+    "**/.venv": true
+  },
+}
